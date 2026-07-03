@@ -1,0 +1,41 @@
+/* Google Font - Inter for clean, modern typography */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Import Tailwind CSS v4 base, components, and utilities */
+@import "tailwindcss";
+
+/* ============================
+   Global Base Styles
+   Applied to the entire application
+   ============================ */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================
+   Custom Scrollbar Styling
+   Dark themed scrollbar to match the app design
+   ============================ */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b1120;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2d3555;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3d4565;
+}
+
+/* Smooth page scrolling for anchor links and navigation */
+html {
+  scroll-behavior: smooth;
+}
