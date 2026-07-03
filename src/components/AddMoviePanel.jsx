@@ -87,8 +87,7 @@ function AddMoviePanel({ onAddMovie }) {
   };
 
   const inputClass = (field) =>
-    `w-full bg-[#0f1225] border rounded-lg py-2.5 px-3 text-sm text-white placeholder-[#4a4a6a] focus:outline-none focus:border-blue-500/60 transition-colors ${
-      errors[field] ? 'border-red-500' : 'border-[#252b45]'
+    `w-full bg-[#0f1225] border rounded-lg py-2.5 px-3 text-sm text-white placeholder-[#4a4a6a] focus:outline-none focus:border-blue-500/60 transition-colors ${errors[field] ? 'border-red-500' : 'border-[#252b45]'
     }`;
 
   return (
