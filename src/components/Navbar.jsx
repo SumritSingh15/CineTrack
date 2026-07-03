@@ -38,7 +38,7 @@ const Navbar = ({ totalCount, watchedCount, unwatchedCount, searchQuery, onSearc
             </div>
           </div>
 
-          {/* stats */}
+          {/* stats of total,watched,unwatched */}
           <div className="flex items-center gap-4 shrink-0">
             <div className="text-center">
               <p className="text-lg font-bold text-white">{totalCount}</p>
