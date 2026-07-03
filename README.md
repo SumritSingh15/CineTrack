@@ -110,20 +110,6 @@ All movie data (including any movies added by the user) is persisted in the brow
 
 ---
 
-## Deployment (Vercel)
-
-1. Push your code to a GitHub repository.
-
-2. Go to [vercel.com](https://vercel.com) and import the repository.
-
-3. Vercel will auto-detect the Vite framework. Use these settings:
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-
-4. Click **Deploy**. Your app will be live in a few seconds.
-
----
-
 ## License
 
 MIT
